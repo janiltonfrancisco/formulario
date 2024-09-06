@@ -1,0 +1,60 @@
+html{
+    background-color: #ccc;
+}
+body{
+    padding-bottom: 500px;
+}
+
+
+div input,
+div label {
+    display: block;
+}
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
